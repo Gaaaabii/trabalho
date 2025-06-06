@@ -9,7 +9,9 @@ import java.util.List;
 
 public class UsuarioDAO {
     private EntityManagerFactory emf =
-            Persistence.createEntityManagerFactory("PU");
+            Persistence.createEntityManagerFactory("taskhubPU");
+
+
 
     public List<Usuario> findAll() {
         EntityManager em = emf.createEntityManager();

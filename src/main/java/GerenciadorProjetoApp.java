@@ -32,9 +32,11 @@ public class GerenciadorProjetoApp extends JFrame {
 
         JMenu menu = new JMenu("Menu");
         JMenuItem listUsersItem = new JMenuItem("Listar Usuários");
+        JMenuItem listEstoqueItem = new JMenuItem("Listar Estoque");
         JMenuItem exitItem = new JMenuItem("Sair");
 
         menu.add(listUsersItem);
+        menu.add(listEstoqueItem);
         menu.add(exitItem);
 
         JMenuBar menuBar = new JMenuBar();

@@ -15,6 +15,7 @@ public class Projeto {
     private LocalDate dataInicio;
     private LocalDate dataPrevistaFim;
 
+
     public Projeto(int id,
                    String nome, String descricao,
                    LocalDate dataInicio,
