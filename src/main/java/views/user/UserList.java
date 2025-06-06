@@ -31,8 +31,6 @@ public class UserList extends JPanel {
 
         JScrollPane scrollPane = new JScrollPane(table);
 
-
-
         add(scrollPane, BorderLayout.CENTER);
 
     }
